@@ -2,7 +2,7 @@ import telebot
 import yfinance as yf
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = telebot.TeleBot('8028665251:AAG54py-DQvxYZDjexSmejVWFMl9nRMpvfU')
+bot = telebot.TeleBot('')
 
 # Глобальный словарь для хранения портфолио по chat_id
 portfolios = {}  # {chat_id: {ticker: quantity}}
